@@ -7,13 +7,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-//using BlackdotTask.Models.SearchInput;
 
 namespace BlackdotTask.Controllers
 {
     public class HomeController : Controller
     {
-        //static SearchInput searchInput = new SearchInput();
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
