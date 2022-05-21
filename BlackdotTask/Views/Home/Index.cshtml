@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Blackdot Task";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Search the web here!</h1>
+    @using (Html.BeginForm("Index", "GetResults"))
+    {
+        <input type="text" name="param" />
+        <input type="submit" value="Go"/>
+    }
+
+</div>
